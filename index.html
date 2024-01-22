@@ -31,6 +31,24 @@
             border-radius: 0.5rem;
             background: #FF4240;
         }
+
+        main .programsContainer .programs .junior{
+            background: linear-gradient(0deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100%), url(Images/2.png), lightgray 50% / cover no-repeat;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        main .programsContainer .programs .Teenager{
+            background: linear-gradient(0deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100%), url(Images/3.png), lightgray 50% / cover no-repeat;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        main .programsContainer .programs .Professional{
+            background: linear-gradient(0deg, rgba(19, 19, 24, 0.50) 0%, rgba(19, 19, 24, 0.50) 100%), url(Images/4.png), lightgray 50% / cover no-repeat;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
     </style>
 
 </head>
@@ -141,7 +159,7 @@
     </header>
     <main class=" container mx-auto">
         <!-- Features Section of club -->
-        <div class="features my-28 border-t-2 border-b-2 border-dashed">
+        <div class="features mt-28 border-t-2 border-dashed">
             <h2 class="text-[#131318] text-center text-4xl font-extrabold mt-8">Professional Hockeys Club</h2>
             <p class="text-[#13131899] text-center font-medium leading-7 max-w-xl mx-auto mt-6 mb-8">Dive into the world of Professional Hockey Clubs, where skill and passion collide on the ice. Witness thrilling matches and celebrate hockey excellence!</p>
             <div class="data border-t-2 border-dashed grid md:grid-cols-2 lg:grid-cols-4">
@@ -176,6 +194,31 @@
                     </div>
                     <h2 class="text-center text-[#131318] text-xl font-semibold mt-6 mb-4">Training Ground</h2>
                     <p class="text-[#13131899] text-center leading-7">Elite Training Ground for Champions.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Programme Section of club -->
+        <div class="programsContainer mb-28 border-t-2 border-b-2 border-dashed">
+            <h2 class="text-[#131318] text-center text-4xl font-extrabold mt-8">Program Sections</h2>
+            <p class="text-[#13131899] text-center font-medium leading-7 max-w-xl mx-auto mt-6 mb-8">Dive into our extensive array of program sections, each meticulously designed to cater to diverse interests and foster holistic growth for all participants</p>
+            <div class="programs grid gap-4 grid-cols-1 md:grid-cols-2">
+                <!-- junior program -->
+                <div class="junior pt-24 px-10 pb-10 rounded-2xl">
+                    <h2 class="text-white text-2xl font-extrabold">Junior Program</h2>
+                    <p class="text-white font-medium mt-4 mb-6 leading-7">Elevate young talents in our Junior Program, a nurturing environment fostering skills, teamwork, and passion for a promising athletic journey ahead.</p>
+                    <button class="button-primary">Register Now!</button>
+                </div>
+                <!-- Teenager Program -->
+                <div class="Teenager pt-24 px-10 pb-10 bg-[url('Images/3.png')] bg-cover bg-no-repeat rounded-2xl">
+                    <h2 class="text-white text-2xl font-extrabold">Teenager Program</h2>
+                    <p class="text-white font-medium mt-4 mb-6 leading-7">Nurture potential in our Teenager Program - a dynamic blend of learning, growth, and camaraderie for a vibrant and impactful journey into adulthood.</p>
+                    <button class="button-primary">Register Now!</button>
+                </div>
+                <!-- Professional Program -->
+                <div class="Professional pt-24 px-10 pb-10 bg-[url('Images/4.png')] bg-cover bg-no-repeat rounded-2xl col-span-2">
+                    <h2 class="text-white text-2xl font-extrabold">Professional Program</h2>
+                    <p class="text-white font-medium mt-4 mb-6 leading-7">Unlock excellence with our Professional Program, designed to elevate skills, foster growth, and ignite success in your chosen field.</p>
+                    <button class="button-primary">Register Now!</button>
                 </div>
             </div>
         </div>
